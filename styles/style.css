@@ -1,0 +1,74 @@
+body{
+    display: flex;
+    justify-content: center; 
+    align-items: center; 
+    height: 100vh; 
+    margin: 0; 
+    background-image: url(/images/flower-2336287_1280.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.card-container{
+    display: flex; 
+    gap: 10px;
+    max-width: 1200px;
+    width: 100%;
+    min-height: 700px;
+    height: 100%;
+    box-sizing: border-box;
+    padding: 10px;
+    border: #b93961 solid;
+}
+
+.card-one{
+    max-width: 600px;
+    width: 100%;
+    min-height: 700px;
+    height: 100%;
+    background-color: rgb(159, 159, 212);
+}
+
+
+/*Second card*/
+
+.card-two{
+    max-width: 600px;
+    width: 100%;
+    min-height: 700px;
+    height: 100%;
+    background-color: #E3E4DB; 
+}
+
+
+/*Texts and titles*/
+
+.main-title{
+    display: flex;
+    justify-content: center;
+    font-family: "Homemade Apple", cursive;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 46px;
+    margin-bottom: 0px;
+}
+
+.text-container-card-one{
+    display: flex;
+    justify-content: center;
+} 
+
+.text-container-card-two{
+    justify-content: center;
+}
+
+.text{
+    max-width: 600px;
+    width: 100%;
+    min-height: 200px;
+    background-color: #b93961;
+    font-size: 20px;
+    font-family: "Homemade Apple", cursive;
+    font-weight: 400;
+    font-style: normal;
+}

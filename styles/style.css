@@ -18,12 +18,10 @@ body {
   height: 100%;
   box-sizing: border-box;
   padding: 10px;
-  border: #b93961 solid;
+  border: #858e82 solid;
 }
 
-/*First card*/
-
-.card-one {
+.inner-card-container {
   max-width: 600px;
   width: 100%;
   min-height: 700px;
@@ -31,18 +29,16 @@ body {
   background-color: #e3e4db;
   display: flex;
   flex-direction: column;
-  justify-content: center;
   align-items: center;
 }
 
 .rings-img {
-  display: flex;
-  align-items: center;
+  position: relative;
+  top: 40px;
   max-width: 200px;
   width: 100%;
   min-height: 100px;
   animation: scaleImg 4s ease-in-out infinite;
-  /* animation-play-state: paused; */
 }
 
 @keyframes scaleImg {
@@ -61,30 +57,26 @@ body {
   animation-play-state: paused;
 }
 
-/*Second card*/
-
-.card-two {
-  max-width: 600px;
-  width: 100%;
-  min-height: 700px;
-  height: 100%;
-  background-color: #e3e4db;
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
+.svg-envelope {
+  max-width: 120px;
+  height: 60px;
 }
 
-/*Texts and titles*/
+.date-container {
+  display: flex;
+  gap: 10px;
+}
 
 .main-title {
   display: flex;
+  flex-direction: row;
   justify-content: center;
   font-family: "Homemade Apple";
   font-weight: 400;
   font-style: normal;
   font-size: 46px;
   margin-bottom: 0px;
+  animation-duration: 5s;
 }
 
 .text {
@@ -99,7 +91,7 @@ body {
 }
 
 .date {
-  animation-duration: 7s;
+  animation-duration: 5s;
   font-size: 26px;
   font-family: "Homemade Apple";
   font-weight: 400;
@@ -107,40 +99,55 @@ body {
   margin: 0px;
 }
 
-.envelope-svg{
-}
-
-.osa-text{
+.osa-text {
   font-size: 20px;
   font-family: "Homemade Apple";
   font-weight: 400;
   font-style: normal;
 }
 
-.envelope{
-  max-width: 120px;
-  height: 60px;
-}
-
-.osa-btn{
+.osa-btn {
   width: 90px;
   height: 50px;
   border: black solid;
-  border-radius: 5px;
-  display: flex; 
-  justify-content: center;  
-  align-items: center;  
+  border-radius: 50px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
   background-color: #e3e4db;
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
   cursor: pointer;
   transition: background-color 0.5s ease;
 }
 
-.osa-btn:hover{
-  background-color: #d8d8d8; 
-  
+.osa-btn:hover {
+  background-color: #d8d8d8;
 }
 
+/*osa.html*/
 
-/* #858e82 */
-/* #f1cba3 */
+.svg-happy-smiley {
+  max-width: 80px;
+  height: 80px;
+  transition: background-color 1s ease;
+  border-radius: 50px;
+  cursor: pointer;
+}
+
+.svg-happy-smiley:hover {
+  background-color: #718d63;
+  transform: rotate(180deg);
+}
+
+.svg-sad-smiley {
+  max-width: 80px;
+  height: 80px;
+  transition: background-color 1s ease;
+  border-radius: 50px;
+  cursor: pointer;
+}
+
+.svg-sad-smiley:hover {
+  background-color: #f2aca4;
+  transform: rotate(180deg);
+}

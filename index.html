@@ -19,23 +19,63 @@
   <body>
     <main>
       <div class="card-container">
-        <div class="card-one">
-          <h2 class="main-title">Mr & Mrs</h2>
+        <div class="inner-card-container">
+          <h2 class="main-title">Mr and Mrs</h2>
           <p class="text">
             Lorem ipsum, dolor sit amet consectetur adipisicing elit. Aspernatur
             obcaecati harum omnis voluptatibus enim dolorum architecto voluptas,
             ducimus esse veniam repellendus at, in dolore natus rerum atque eum
             velit eius.
           </p>
-          <img class="rings-img" src="/images/wedding-rings.png" alt="rings" />
+          <img
+            class="rings-img"
+            src="/images/black-wedding-rings.png"
+            alt="rings"
+          />
         </div>
 
-        <div class="card-two">
-          <svg class="envelope">
-            <use xlink:href="/images/envelope.svg#white-envelope"></use>
-          </svg>
+        <div class="inner-card-container">
           <h2 class="main-title">Save the date</h2>
-          <h3 class="date animate__animated animate__fadeIn">2027-02-20</h3>
+          <div class="date-container animate__animated animate__fadeInDown">
+            <h3 class="date">2027-02-20</h3>
+            <svg
+              class="envelope-svg"
+              width="50"
+              height="50"
+              viewBox="0 0 120 60"
+              xmlns="http://www.w3.org/2000/svg"
+            >
+              <rect
+                width="100"
+                height="50"
+                x="10"
+                y="5"
+                rx="2"
+                ry="2"
+                fill="none"
+                stroke="white"
+                stroke-width="4"
+              />
+              <line
+                x1="10"
+                y1="5"
+                x2="60"
+                y2="30"
+                stroke="white"
+                stroke-width="4"
+                stroke-linecap="round"
+              />
+              <line
+                x1="110"
+                y1="5"
+                x2="60"
+                y2="30"
+                stroke="white"
+                stroke-width="4"
+                stroke-linecap="round"
+              />
+            </svg>
+          </div>
 
           <p class="text">
             Lorem ipsum, dolor sit amet consectetur adipisicing elit. Aspernatur
@@ -43,6 +83,7 @@
             ducimus esse veniam repellendus at, in dolore natus rerum atque eum
             velit eius.
           </p>
+
           <button class="osa-btn" onclick="window.location.href='osa.html';">
             <h3 class="osa-text">OSA</h3>
           </button>

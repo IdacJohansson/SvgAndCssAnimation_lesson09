@@ -24,11 +24,6 @@ body {
 /*First card*/
 
 .card-one {
-  /* max-width: 600px;
-    width: 100%;
-    min-height: 700px;
-    height: 100%;
-    background-color: #E3E4DB;  */
   max-width: 600px;
   width: 100%;
   min-height: 700px;
@@ -85,7 +80,7 @@ body {
 .main-title {
   display: flex;
   justify-content: center;
-  font-family: "Homemade Apple", cursive;
+  font-family: "Homemade Apple";
   font-weight: 400;
   font-style: normal;
   font-size: 46px;
@@ -98,7 +93,7 @@ body {
   width: 80%;
   min-height: 200px;
   font-size: 18px;
-  font-family: "Homemade Apple", cursive;
+  font-family: "Homemade Apple";
   font-weight: 400;
   font-style: normal;
 }
@@ -106,8 +101,46 @@ body {
 .date {
   animation-duration: 7s;
   font-size: 26px;
-  font-family: "Homemade Apple", cursive;
+  font-family: "Homemade Apple";
   font-weight: 400;
   font-style: normal;
   margin: 0px;
 }
+
+.envelope-svg{
+}
+
+.osa-text{
+  font-size: 20px;
+  font-family: "Homemade Apple";
+  font-weight: 400;
+  font-style: normal;
+}
+
+.envelope{
+  max-width: 120px;
+  height: 60px;
+}
+
+.osa-btn{
+  width: 90px;
+  height: 50px;
+  border: black solid;
+  border-radius: 5px;
+  display: flex; 
+  justify-content: center;  
+  align-items: center;  
+  background-color: #e3e4db;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  cursor: pointer;
+  transition: background-color 0.5s ease;
+}
+
+.osa-btn:hover{
+  background-color: #d8d8d8; 
+  
+}
+
+
+/* #858e82 */
+/* #f1cba3 */
